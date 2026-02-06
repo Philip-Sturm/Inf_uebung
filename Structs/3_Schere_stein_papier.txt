@@ -1,0 +1,1 @@
+Baue ein struct player in dein Schere stein Papier spiel ein. Jeder spieler soll punkte und gespielte aktionenn(slice) haben
