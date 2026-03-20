@@ -6,18 +6,26 @@ func ExampleFactorial() {
 	fmt.Println(Factorial(6))
 	fmt.Println(Factorial(0))
 	fmt.Println(Factorial(42))
+	fmt.Println(Factorial(-5))
 
 	// Output:
-	//
+	// 720
+	// 1
+	// 7538058755741581312
+	// 0
 }
 
 func ExampleSum() {
 	fmt.Println(Sum(6))
 	fmt.Println(Sum(0))
 	fmt.Println(Sum(42))
+	fmt.Println(Sum(-5))
 
 	// Output:
-	//
+	// 21
+	// 0
+	// 903
+	// 0
 }
 
 func ExampleCountOdd() {
@@ -35,5 +43,5 @@ func ExampleCountOdd() {
 	// 4
 	// 5
 	// 0
-	// 1
+	// 0
 }
