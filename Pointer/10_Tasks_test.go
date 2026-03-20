@@ -110,3 +110,10 @@ func TestIntPtr(t *testing.T) {
 		t.Fatalf("expected different pointers (distinct allocations), got same address")
 	}
 }
+
+func ExamplePointerVersuche() {
+	PointerVersuche(5)
+
+	// Output:
+	//
+}
